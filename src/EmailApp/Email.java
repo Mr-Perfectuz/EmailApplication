@@ -72,4 +72,5 @@ public class Email {
         this.password = password;
     }
 
+    public int getMailBoxCapacity(){return mailBoxCapacity;}
 }
