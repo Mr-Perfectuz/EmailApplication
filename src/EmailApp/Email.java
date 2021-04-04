@@ -20,7 +20,7 @@ public class Email {
     public Email(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        System.out.println("Email created "+ this.firstName + " "+ this.lastName);
+        System.out.println("Email created for "+ this.firstName + " "+ this.lastName);
 
         //call a method asking for the department - return the department
         this.department = setDepartment();
@@ -79,8 +79,8 @@ public class Email {
 
     public String showInfo(){
         return "DISPLAY NAME: "+ firstName + ""+ lastName+
-                "COMPANY EMAIL:"+ email +
-                "MAILBOX CAPACITY: "+ mailBoxCapacity+"mb";
+                "\nCOMPANY EMAIL:"+ email +
+                "\nMAILBOX CAPACITY: "+ mailBoxCapacity+"mb";
 
     }
 }
