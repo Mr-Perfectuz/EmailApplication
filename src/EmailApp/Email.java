@@ -73,4 +73,5 @@ public class Email {
     }
 
     public int getMailBoxCapacity(){return mailBoxCapacity;}
+    public String getAlternateEmail(){return alternateEmail;}
 }
